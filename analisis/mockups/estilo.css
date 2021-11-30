@@ -7,35 +7,35 @@
 }
 #porquenova{
     height: 60px;
+    width: 260px;
 }
 #header{
-    width: 100%;
+    width: 1300px;
     height: 60px;
     border: 1px solid black;
 }
 #contenedor{
-    width: 100%;
+    width: 1300;
     text-align: center;
 }
 #parte1{
     border: 1px solid black;
     margin-top: 20px;
     min-height: 600px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    margin-left: 260px;
+    margin-right: 260px;
+    width: 780px;
 }
 #porquenova2{
     height: 60px;
-    width: 100%;
-
+    width: 1300px;
 }
 #porquenova3{
     margin-top: 10%;
     margin-left: 7%;
     /*margin-right: 30%;*/
     height: 200px;
-    width: 10%;
+    width: 156px;
     float: left;
 
 }
