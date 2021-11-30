@@ -1,16 +1,22 @@
-
+html,body{
+    width: 1300px;
+}
 #image{
     height: auto;
     width: 20%;
     float: left;
     overflow: hidden;
 }
+img{
+    width: auto;
+}
+
 #porquenova{
     height: 60px;
     width: 260px;
 }
 #header{
-    width: 1300px;
+    width: 1296px;
     height: 60px;
     border: 1px solid black;
 }
@@ -21,23 +27,22 @@
 #parte1{
     border: 1px solid black;
     margin-top: 20px;
-    min-height: 600px;
+    min-height: 400px;
     margin-left: 260px;
     margin-right: 260px;
+    width: 776px;
+}
+#parallaxing{
+    height: 60px;
     width: 780px;
 }
-#porquenova2{
-    height: 60px;
-    width: 1300px;
-}
-#porquenova3{
+#ignacio{
     margin-top: 10%;
-    margin-left: 7%;
-    /*margin-right: 30%;*/
     height: 200px;
     width: 156px;
+    margin-left: 117px;
+    margin-right: 117px;
     float: left;
-
 }
 #porquenova4{
     width: 30%;
@@ -51,28 +56,44 @@
 
 }
 #p1{
-    margin-top: 10%;
-    margin-bottom: 5%;
     
+    margin-top: 12%;
+    margin-bottom: 5%;
+    width: 234px;
+    margin-right: 152px;
+    /*margin-left: 117px;*/
+    float: left;
+    min-height: 40px;
+    background-color: red;
 }
-#p1{
-    margin-top: 10%;
+#p2{
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 234px;
+    margin-right: 152px;
+    /*margin-left: 117px;*/
+    float: left;
+    min-height: 40px;
+    background-color: blue;
 }
+
 #parallax{
     width: 80%;
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 776px;
     margin-bottom: 0px;
+    margin-left: 260px;
+    margin-right: 260px;
 }
 #parte2{
     background-color: black;
     /*margin-top: -22px;*/
-    min-height: 600px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    min-height: 400px;
+    margin-left: 260px;
+    margin-right: 260px;
+    width: 780px;
     color: white;
 }
 #parte2 h1{
@@ -82,11 +103,11 @@
 #parte3{
     border: 1px solid black;
     
-    min-height: 600px;
-    margin-left: 10%;
-    margin-right: 10%;
+    min-height: 400px;
+    margin-left: 260px;
+    margin-right: 260px;
     
-    width: 80%;
+    width: 776px;
     margin-bottom: 100px;
 }
 #parte3 h1{
