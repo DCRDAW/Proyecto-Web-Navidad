@@ -4,6 +4,7 @@ body{
     width: 1300px;
     height: 100%;
     font-family: 'Yuji Syuku', serif;
+    color: white;
 }
 #image{
     height: auto;
@@ -34,7 +35,7 @@ header{
     margin-bottom: 0;
     background-color: #0079B6;
     position: fixed;
-    z-index: 1;
+    z-index: 20;
     top: 0;
 }
 main{
@@ -47,10 +48,10 @@ main{
     margin-top: 50px;
 }
 iframe{
-    width: 312px;
-    height: auto;
-    margin-left: 234px;
-    margin-right: 234px;
+    width: 560px;
+    height: 315px;
+    margin-left: 370px;
+    margin-right: 370px;
 }
 #parte1{
     position: relative;
@@ -60,7 +61,6 @@ iframe{
     margin-right: 260px;
     width: 780px;
     background-color: #b3000c;
-    color: white;
     margin-bottom: 300px;
     
 }
@@ -97,42 +97,23 @@ iframe{
     position: relative;
     top: 200px;
 }
-#p1{
-    
-    margin-top: 12%;
-    margin-bottom: 5%;
-    width: 234px;
-    margin-right: 152px;
-    float: left;
-    min-height: 40px;
-    font-size: 2em;
-}
-#p2{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 234px;
-    margin-right: 152px;
-    font-family: 'Yuji Syuku', serif;
-    float: left;
-    min-height: 40px;
-    
-}
+
 #parte2{
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: black;
     /*margin-top: 12%;*/
-    min-height: 500px;
+    min-height: 900px;
     
     width: 1300px;
-    color: white;
+
 }
 #parte2 h1{
     margin-top: 0px;
     padding-top: 30px;
-    margin-left: 331px;
-    margin-right: 331px;
-    width:118px;
+    margin-left: 520px;
+    margin-right: 520px;
+    width:260px;
 }
 #parte3{
     margin-top: 100px;
@@ -147,11 +128,38 @@ iframe{
 #parte3 h1{
     margin-top: 0px;
     padding-top: 30px;
-    margin-left: 331px;
-    margin-right: 331px;
-    width:118px;
+    margin-left: 260px;
+    margin-right:260px;
+    width:260px;
 }
-#p3{
+#texto1{
+    
+    margin-top: 12%;
+    margin-bottom: 5%;
+    width: 234px;
+    margin-right: 152px;
+    float: left;
+    min-height: 40px;
+    font-size: 2em;
+}
+#texto2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 234px;
+    margin-right: 152px;
+    
+    float: left;
+    min-height: 40px;
+    
+}
+#texto3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 312px;
+    margin-left: 494px;
+    margin-right: 494px;
+}
+#texto4{
     padding-left: 20%;
     padding-right: 20%;
     position: relative;
