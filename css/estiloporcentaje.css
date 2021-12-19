@@ -132,6 +132,8 @@ iframe{
     margin-right: 20%;/*original 260, que es un 20% de 1300*/  
     width: 60%; /*original 780px, que es un 60% de 1300*/
     background-color: #b3000c;
+    padding-bottom: 10px;
+    overflow: auto;
 }
 #parte3 h1{
     margin-top: 0px;
@@ -257,4 +259,56 @@ footer{
       position: fixed;
       top: 0;
   }
-  
+  #deseo{
+      margin-top: 130px;
+  }
+ 
+  #deseo select{
+      margin-top: 10px;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+  }
+    #emojis{
+    width: 50%; /*original 560, que es un 70% de 780*/
+    margin-left: 25%;/*original 117, que es un 15% de 780*/
+    margin-right: 25%;/*original 117, que es un 15% de 780*/
+    max-height: 350px;
+    height: auto;
+    margin-top: 40px;   
+}
+    #textoCrear{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 24%/*original 312px, que es un 24% de 1300*/;
+    margin-left: 38%/*original 494px, que es un 38 de 1300*/;
+    margin-right:38%/*original 494px, que es un 38 de 1300*/;
+    }
+    #texto5{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 24%/*original 312px, que es un 24% de 1300*/;
+        margin-left: 38%/*original 494px, que es un 38 de 1300*/;
+        margin-right:38%/*original 494px, que es un 38 de 1300*/;
+    
+    }
+    #moneda{
+        width: 100%;
+        color: white;
+        margin-bottom: 100px;
+    }
+    #gifM{
+        width: 100%;
+    }
+    button{
+        background-color: #0079B6;
+        color: white;
+        opacity: 0.75;
+        width: 10%;
+        margin-top: 20px;
+        border-radius: 5px;
+        border-color: white;
+    }
+    button:hover{
+        opacity: 1;
+    }
